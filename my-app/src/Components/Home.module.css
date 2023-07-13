@@ -1,0 +1,28 @@
+.navbar{
+  width: 100%;
+  background-color: blanchedalmond;
+  height: 70px;
+  border: 1px solid black;
+}
+
+.navDiv{
+
+  margin: auto;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.navDiv>a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.navDiv h2:hover{
+  color: blue;
+  cursor: pointer;
+}
