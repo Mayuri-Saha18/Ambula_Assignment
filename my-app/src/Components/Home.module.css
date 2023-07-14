@@ -2,7 +2,7 @@
   width: 100%;
   background-color: blanchedalmond;
   height: 70px;
-  border: 1px solid black;
+  border: 1px solid rgb(62, 61, 61);
 }
 
 .navDiv{
@@ -25,4 +25,16 @@
 .navDiv h2:hover{
   color: blue;
   cursor: pointer;
+}
+.divbox{
+  background-color:rgb(247, 65, 65);
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  display: block;
+  margin-top: 100px;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 30px;
 }

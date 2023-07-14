@@ -1,23 +1,19 @@
 import React from 'react'
 import styles from "./Home.module.css"
 
+
 const Home = () => {
   return (
     <div>
-        <nav className={styles.navbar}>
+        <div className={styles.divbox}>
 
-            <div className={styles.navDiv}>
-          
-            
-                    <h2>Home</h2>
-                    <h2>About</h2>
-                    <h2>Todo</h2>
-                    <h2>Shopping Bag</h2>
-                    <h2>Contact</h2>
-            
-            </div>
 
-        </nav>
+        <p>Welcome to the Home page</p>
+        </div>
+        <div className={styles.divbox2}>
+            <p>This app consists of todo app and also shopping app.</p>
+            <p>Enjoy this app.</p>
+        </div>
     </div>
   )
 }
